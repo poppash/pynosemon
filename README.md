@@ -21,7 +21,7 @@ docker image build --build-arg PYTAG=2.7 -t pynosemon . && \
 docker container run -t -v $(pwd)/src:/src pynosemon /src
 ```
 
-Note that you could also set build-time variable `ALPINETAG`, as long as it's [supported](https://hub.docker.com/_/python).
+Note that you can also set build-time variable `ALPINETAG`, as long as it's [supported](https://hub.docker.com/_/python).
 
 ## Credits
 Inspired by [this](https://stackoverflow.com/a/49435131) Stack Overflow answer. Thanks, [bkinsey808](https://meta.stackoverflow.com/users/2953703/bkinsey808)!
