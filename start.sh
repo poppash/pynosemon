@@ -1,6 +1,6 @@
 docker image build -t pynosemon . && \
 docker container run \
 --rm \
--it \
+-t \
 -v $(pwd)/src:/src \
 pynosemon $@

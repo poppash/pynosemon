@@ -16,5 +16,7 @@ pip nose
 RUN apk add --update nodejs nodejs-npm
 RUN npm install -g nodemon
 
+VOLUME ["/src"]
+
 COPY ./entrypoint.sh ./
 ENTRYPOINT [ "/bin/sh", "entrypoint.sh" ]
