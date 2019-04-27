@@ -12,3 +12,7 @@ class TestUnittest(unittest.TestCase):
     def test_func(self):
         res = func()
         self.assertEqual(res, 'Hello, world!')
+
+def test_func():
+    res = func()
+    assert res == 'Hello, world!'
