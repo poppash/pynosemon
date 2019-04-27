@@ -11,7 +11,7 @@ Just make sure that `docker container run --rm hello-world` doesn't return anyth
 ## Quickstart
 Given that `./src` contains your code (and its tests), run `docker container run -it -v $(pwd)/src:/src poppash/pynosemon /src`. 
 
-- This image uses the `python:3.7-alpine` base image
+- This image extends from the `python:3.7-alpine` base image
 - Interactive mode (`-it`) allows us to quit `nodemon` using `CTRL+C`
 
 # Configuration
