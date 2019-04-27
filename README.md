@@ -3,7 +3,6 @@ Docker image which integrates `unittest`, `nose` and `nodemon` to easily test yo
 
 ## Requirements
 - Docker
-- Some Unix shell (tested using `sh`)
 
 ## Installation
 Just make sure that `docker container run --rm hello-world` doesn't return anything funny.
