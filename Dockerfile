@@ -1,4 +1,7 @@
-FROM python:3-alpine
+ARG PYTAG=3
+ARG ALPINETAG=alpine
+
+FROM python:${PYTAG}-${ALPINETAG}
 LABEL maintainer="wjc.vonk@gmail.com"
 
 RUN apk upgrade && apk update
