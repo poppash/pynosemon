@@ -19,4 +19,4 @@ RUN npm install -g nodemon
 VOLUME ["/src"]
 
 COPY ./entrypoint.sh ./
-ENTRYPOINT [ "/bin/sh", "entrypoint.sh" ]
+ENTRYPOINT [ "/bin/sh", "entrypoint.sh", "/src" ]

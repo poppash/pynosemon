@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pynosemon:
+    image: pynosemon:latest
+    build: 
+      context: .
+      args:
+        - PYTAG=3.7
+        - ALPINETAG=alpine
+    volumes:
+      - ./src:/src
+
+    
+
