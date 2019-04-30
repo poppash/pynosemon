@@ -9,6 +9,3 @@ services:
         - ALPINETAG=alpine
     volumes:
       - ./src:/src
-
-    
-
